@@ -1,0 +1,28 @@
+.md-typeset {
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+.md-typeset :is(.admonition,details) {
+    font-size: 0.8rem;
+}
+
+.md-sidebar .md-nav {
+    font-size: 0.8rem !important;
+}
+
+.md-content a {
+    color: #069 !important;
+    text-decoration: underline;
+}
+
+.md-content a[href*="//"]:not([href*="mikka\."]), .external-link {
+    text-decoration:underline;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(transparent, transparent), url(/assets/external.svg);
+    background-size: 11px;
+    padding-right: 13px;
+    background-position-y: 4px;
+  }
+  
